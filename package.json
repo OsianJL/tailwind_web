@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "reset": "rm -r node_modules && npm install"
+    "reset": "rm -r node_modules && npm install",
+    "tw": "tailwind -i ./styles/styles.css -o ./styles/output.css --watch"
   },
   "repository": {
     "type": "git",
